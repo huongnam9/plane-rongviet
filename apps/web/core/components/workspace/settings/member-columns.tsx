@@ -85,7 +85,7 @@ export function NameColumn(props: NameProps) {
                 data={[""]}
                 keyExtractor={(item) => item}
                 popoverClassName="justify-end"
-                buttonClassName="outline-none	origin-center rotate-90 size-8 aspect-square flex-shrink-0 grid place-items-center opacity-0 group-hover:opacity-100 transition-opacity"
+                buttonClassName="outline-none	origin-center rotate-90 size-8 aspect-square flex-shrink-0 grid place-items-center opacity-60 hover:opacity-100 group-hover:opacity-100 transition-opacity"
                 render={() => (
                   <div
                     role="button"

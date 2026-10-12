@@ -71,7 +71,7 @@ export function NameColumn(props: NameProps) {
             {(isAdmin || id === currentUser?.id) && (
               <CustomMenu
                 ellipsis
-                buttonClassName="p-0.5 opacity-0 group-hover:opacity-100 transition-opacity"
+                buttonClassName="p-0.5 opacity-60 hover:opacity-100 group-hover:opacity-100 transition-opacity"
                 optionsClassName="p-1.5"
                 placement="bottom-end"
               >
